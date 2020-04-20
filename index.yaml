@@ -1,0 +1,13 @@
+apiVersion: v1
+entries:
+  offblocks:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-04-20T10:42:24.957195311+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 373af3af1c297f0fc1225426749e6fd68877070d08a788c02254048ffd2c21fe
+    name: offblocks
+    urls:
+    - offblocks-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-04-20T10:42:24.954895722+02:00"
