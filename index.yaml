@@ -1,37 +1,13 @@
 apiVersion: v1
 entries:
-  mysql:
-  - apiVersion: v1
-    appVersion: 8.0.19
-    created: "2020-04-23T10:34:30.313178718+02:00"
-    description: Chart to create a Highly available MySQL cluster
-    digest: d2b4c04b3c9a944d1b18c4f198d25b698c85a3eecd3b612fa27fa7257db2dba7
-    engine: gotpl
-    home: https://mysql.com
-    icon: https://bitnami.com/assets/stacks/mysql/img/mysql-stack-220x234.png
-    keywords:
-    - mysql
-    - database
-    - sql
-    - cluster
-    - high availablity
-    maintainers:
-    - email: containers@bitnami.com
-      name: Bitnami
-    name: mysql
-    sources:
-    - https://github.com/bitnami/bitnami-docker-mysql
-    urls:
-    - charts/mysql-6.11.2.tgz
-    version: 6.11.2
   offblocks:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-04-23T10:34:30.310462917+02:00"
+    created: "2020-05-01T16:57:38.101400771+02:00"
     description: A Helm chart for Kubernetes
-    digest: e0f2fb095a6a02c177fd6a948e6afd1886ae89a28163022282096438b2bc1cf6
+    digest: 42f47ab61857a72f6e6f421a82a1b1a864c0560a64e353ad9e07067f57f9cf57
     name: offblocks
     urls:
     - offblocks-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-23T10:34:30.307536116+02:00"
+generated: "2020-05-01T16:57:38.09854168+02:00"
