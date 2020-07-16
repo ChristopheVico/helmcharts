@@ -3,7 +3,7 @@ entries:
   offblocks:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-07-14T08:21:43.551065011+02:00"
+    created: "2020-07-16T14:02:13.641577115+02:00"
     dependencies:
     - name: mysql
       repository: https://charts.bitnami.com/bitnami
@@ -14,4 +14,19 @@ entries:
     urls:
     - offblocks-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-14T08:21:43.546661504+02:00"
+  sharepoint-addin-provider:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-07-16T14:02:13.64668722+02:00"
+    dependencies:
+    - name: mongodb
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.0.9
+    description: A Helm chart for Kubernetes
+    digest: 8bb8991912dbb64cf977ccd905b06f8b560b3450e334abe2a06807ec30d29c7a
+    name: sharepoint-addin-provider
+    type: application
+    urls:
+    - sharepoint-addin-provider-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-07-16T14:02:13.637078441+02:00"
