@@ -3,11 +3,15 @@ entries:
   offblocks:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-05-18T15:22:40.822044764+02:00"
+    created: "2020-07-14T08:21:43.551065011+02:00"
+    dependencies:
+    - name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 6.11.2
     description: A Helm chart for Kubernetes
-    digest: 55cfba48fb986bf40ab1b2c6ba1133c00212ecd0ad299f00125ff846738364ca
+    digest: 0d62e9cd2d442c99cd65b94a3c43e12726d2a5bd6099fef1ffe83eb7339e4c95
     name: offblocks
     urls:
     - offblocks-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-18T15:22:40.814706292+02:00"
+generated: "2020-07-14T08:21:43.546661504+02:00"
